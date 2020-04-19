@@ -14,7 +14,7 @@ const Projects = (props) => {
     <div className="projects-wrapper">
       <div className="projects-title">Recent Projects</div>
       <div className="project-card project-1">
-        <Link to="/covid">
+        <Link to="/react-portfolio/covid">
           <Project title="Covid" />
           <img className="image-style" src={covid} alt="covid" />
           <h2 className="overlay-text">COVID-19 Tracker</h2>
@@ -22,7 +22,7 @@ const Projects = (props) => {
       </div>
 
       <div className="project-card project-2">
-        <a href="/planner">
+        <a href="/react-portfolio/planner">
           <Project title="Project 2" />
           <img className="image-style" src={planner} alt="planner" />
           <h2 className="overlay-text">Day Planner</h2>
@@ -30,7 +30,7 @@ const Projects = (props) => {
       </div>
 
       <div className="project-card project-3">
-        <a href="/quiz">
+        <a href="/react-portfolio/quiz">
           <Project title="Project 3" />
           <img className="image-style" src={quiz} alt="quiz" />
           <h2 className="overlay-text">Capitals Quiz</h2>
@@ -38,7 +38,7 @@ const Projects = (props) => {
       </div>
 
       <div className="project-card project-4">
-        <a href="/weather">
+        <a href="/react-portfolio/weather">
           <Project title="Project 4" />
           <img className="image-style" src={weather} alt="weather" />
           <h2 className="overlay-text">Weather Dashboard</h2>

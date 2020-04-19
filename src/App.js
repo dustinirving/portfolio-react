@@ -28,7 +28,7 @@ class App extends Component {
             <Sidebar />
           </div>
           <Route
-            path="/"
+            path="/react-portfolio"
             exact
             render={(props) => (
               <React.Fragment>
@@ -53,16 +53,16 @@ class App extends Component {
           ></Route>
         </div>
         <div className="projectWrapper">
-          <Route path="/covid" component={Covid} exact />
+          <Route path="/react-portfolio/covid" component={Covid} exact />
         </div>
         <div className="projectWrapper">
-          <Route path="/planner" component={Planner} exact />
+          <Route path="/react-portfolio/planner" component={Planner} exact />
         </div>
         <div className="projectWrapper">
-          <Route path="/quiz" component={Quiz} exact />
+          <Route path="/react-portfolio/quiz" component={Quiz} exact />
         </div>
         <div className="projectWrapper">
-          <Route path="/weather" component={Weather} exact />
+          <Route path="/react-portfolio/weather" component={Weather} exact />
         </div>
       </Router>
     );
