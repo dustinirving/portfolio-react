@@ -1,0 +1,36 @@
+import React from "react";
+import "../../styling/ProjectDescription.css";
+
+const Covid = (props) => {
+  return (
+    <div className="project">
+      <p className="header">COVID-19 Tracker</p>
+      <div className="linksDiv">
+        <a
+          className="linkOne"
+          href="https://github.com/dustinirving/covid19-tracker"
+        >
+          Github Repo
+        </a>
+        <a
+          className="linkTwo"
+          href="https://lagbana.github.io/covid19-tracker/"
+        >
+          Live Site
+        </a>
+      </div>
+      <img className="gif" src={require("../../gifs/covid.gif")} alt="Covid" />
+
+      <p className="projectText">
+        The COVID-19 Tracker retrieves the latest data regarding cases of
+        COVID-19 and displays a graphical representation. It also provides the
+        user with the most recent news updates. My role consisted of developing
+        a script that would obtain the data and display it in a graph. This was
+        all done with MaterializeCSS, HTML5, Javascript, Chart.js, a COVID-19
+        API, and the NYT API.
+      </p>
+    </div>
+  );
+};
+
+export default Covid;

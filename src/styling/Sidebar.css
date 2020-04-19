@@ -1,0 +1,12 @@
+.sidebar-items ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-items ul li {
+  padding-bottom: 1rem;
+}
+
+.sidebar-items ul li:hover {
+  transform: scale(1.1);
+}

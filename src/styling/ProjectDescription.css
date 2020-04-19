@@ -1,0 +1,54 @@
+.header {
+  font-size: 50px;
+  margin-top: 8vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  border-radius: 2%;
+  box-shadow: 0 0 10px black;
+}
+
+.projectText {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 2rem;
+  font-size: 22px;
+  box-shadow: 0 0 5px black;
+  border-radius: 1%;
+  background-color: #eee;
+}
+
+.linksDiv {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.linkOne {
+  text-decoration: none;
+  color: black;
+}
+
+.linkOne:hover {
+  color: gray;
+}
+
+.linkTwo {
+  padding-left: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.linkTwo:hover {
+  color: gray;
+}
