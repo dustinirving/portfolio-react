@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2.5rem;
-  height: 92%;
   align-items: center;
   justify-items: center;
 }
@@ -26,16 +25,41 @@
   transform: translate(-50%, -50%);
   background-color: white;
   color: black;
-  font-size: 30px;
 }
 
 .image-style {
   border-radius: 2%;
-  height: 250px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   box-shadow: 0 0 10px black;
 }
 
 .project-card:hover {
   transform: scale(1.05);
+}
+
+@media (min-width: 1135px) {
+  .overlay-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1134px) and (min-width: 921px) {
+  .overlay-text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 920px) and (min-width: 775px) {
+  .overlay-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 774px) {
+  .overlay-text {
+    font-size: 24px;
+  }
+  .project-card {
+    grid-column: 1/3;
+  }
 }

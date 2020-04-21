@@ -22,12 +22,10 @@ const Quiz = (props) => {
       <img className="gif" src={require("../../gifs/quiz.gif")} alt="Quiz" />
 
       <p className="projectText">
-        The COVID-19 Tracker retrieves the latest data regarding cases of
-        COVID-19 and displays a graphical representation. It also provides the
-        user with the most recent news updates. My role consisted of developing
-        a script that would obtain the data and display it in a graph. This was
-        all done with MaterializeCSS, HTML5, Javascript, Chart.js, a COVID-19
-        API, and the NYT API.
+        This is quiz about country capitals. The user has 60 seconds to answer 5
+        questions. Based on the user's time remaining and the number of correct
+        answers, a score is generated. The user can then enter their score into
+        the highscores. This was developed using html, css and javascript.
       </p>
     </div>
   );

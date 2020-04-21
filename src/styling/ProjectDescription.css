@@ -1,6 +1,6 @@
 .header {
-  font-size: 50px;
-  margin-top: 8vh;
+  padding-top: 12vh;
+  font-size: max(3vw, 30px);
   margin-bottom: 0;
   padding-bottom: 0;
   text-align: center;
@@ -11,7 +11,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
+  width: 80%;
+  max-width: 575px;
+  height: auto;
   border-radius: 2%;
   box-shadow: 0 0 10px black;
 }
@@ -22,7 +24,7 @@
   margin-right: auto;
   width: 80%;
   padding: 2rem;
-  font-size: 22px;
+  font-size: max(1.75vw, 18px);
   box-shadow: 0 0 5px black;
   border-radius: 1%;
   background-color: #eee;
@@ -52,3 +54,5 @@
 .linkTwo:hover {
   color: gray;
 }
+
+@media;

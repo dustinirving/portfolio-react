@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // Components
 import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -24,17 +23,16 @@ class App extends Component {
           <div className="navbar" id="navbar">
             <Navbar />
           </div>
-          <div className="sidebar">
-            <Sidebar />
-          </div>
           <Route
             path="/react-portfolio"
             exact
             render={(props) => (
               <React.Fragment>
-                <div className="wrapper">
-                  <div className="intro">
-                    <Intro />
+                <div className="background">
+                  <div className="wrapper">
+                    <div className="intro">
+                      <Intro />
+                    </div>
                   </div>
                   <div className="projects" id="projects">
                     <Projects />
@@ -43,7 +41,9 @@ class App extends Component {
                   <div className="about" id="about">
                     <About />
                   </div>
+                </div>
 
+                <div className="contactWrapper">
                   <div className="contact" id="contact">
                     <Contact />
                   </div>

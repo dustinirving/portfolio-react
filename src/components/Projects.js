@@ -22,27 +22,27 @@ const Projects = (props) => {
       </div>
 
       <div className="project-card project-2">
-        <a href="/react-portfolio/planner">
-          <Project title="Project 2" />
+        <Link to="/react-portfolio/planner">
+          <Project title="Planner" />
           <img className="image-style" src={planner} alt="planner" />
           <h2 className="overlay-text">Day Planner</h2>
-        </a>
+        </Link>
       </div>
 
       <div className="project-card project-3">
-        <a href="/react-portfolio/quiz">
-          <Project title="Project 3" />
+        <Link to="/react-portfolio/quiz">
+          <Project title="Quiz" />
           <img className="image-style" src={quiz} alt="quiz" />
           <h2 className="overlay-text">Capitals Quiz</h2>
-        </a>
+        </Link>
       </div>
 
       <div className="project-card project-4">
-        <a href="/react-portfolio/weather">
-          <Project title="Project 4" />
+        <Link to="/react-portfolio/weather">
+          <Project title="Weather" />
           <img className="image-style" src={weather} alt="weather" />
           <h2 className="overlay-text">Weather Dashboard</h2>
-        </a>
+        </Link>
       </div>
     </div>
   );

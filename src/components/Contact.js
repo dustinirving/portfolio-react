@@ -7,72 +7,80 @@ import {
   FaPhone,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import "../styling/App.css";
 
 const Contact = (props) => {
   return (
     <div style={contactComponent}>
-      <h2 style={contactHeader}>Contact Info</h2>
-      <ul style={unorderedList}>
-        <li>
-          <a
-            style={contactA}
-            href="https://dustinirving.github.io/mypage/docs/resume.pdf"
-          >
-            <IconContext.Provider value={{ color: "black", size: "1.5em" }}>
-              <div stlye={inlineImg}>
-                <FaPhone /> (613) 292 4533
-              </div>
-            </IconContext.Provider>
-          </a>
-        </li>
-        <li>
-          <a
-            style={contactA}
-            href="mailto:dustin.irving@gmail.com? subject=subject text"
-          >
-            <IconContext.Provider value={{ color: "black", size: "1.5em" }}>
-              <div stlye={inlineImg}>
-                <FaEnvelope /> dustin.irving@gmail.com
-              </div>
-            </IconContext.Provider>
-          </a>
-        </li>
-        <li>
-          <a
-            style={contactA}
-            href="https://dustinirving.github.io/mypage/docs/resume.pdf"
-          >
-            <IconContext.Provider value={{ color: "black", size: "1.5em" }}>
-              <div stlye={inlineImg}>
-                <FaFilePdf /> Resume
-              </div>
-            </IconContext.Provider>
-          </a>
-        </li>
-      </ul>
-      <div style={socialMedia}>
-        <a
-          style={contactA}
-          href="https://github.com/dustinirving"
-          title="Github"
-        >
-          <IconContext.Provider value={{ color: "blue", size: "2.75em" }}>
-            <div style={socialMediaIcon}>
-              <FaGithub />
-            </div>
-          </IconContext.Provider>
-        </a>
+      <div style={contactBox}>
+        <h2 style={contactHeader}>Contact Me</h2>
+        <div style={icons} className="icons">
+          <div className="icon">
+            <a
+              style={contactA}
+              href="mailto:dustin.irving@gmail.com? subject=subject text"
+            >
+              <IconContext.Provider value={{ size: "2.75em" }}>
+                <div className="socialMediaIcon">
+                  <FaEnvelope />
+                </div>
+              </IconContext.Provider>
+              <p className="contactText">dustin.irving@gmail.com</p>
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              style={contactA}
+              href="https://github.com/dustinirving"
+              title="Github"
+            >
+              <IconContext.Provider value={{ size: "2.75em" }}>
+                <div className="socialMediaIcon">
+                  <FaGithub />
+                </div>
+              </IconContext.Provider>
+              <p className="contactText">Github</p>
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              style={contactA}
+              href="https://dustinirving.github.io/mypage/docs/resume.pdf"
+            >
+              <IconContext.Provider value={{ size: "2.75em" }}>
+                <div className="socialMediaIcon">
+                  <FaFilePdf />
+                </div>
+              </IconContext.Provider>
+              <p className="contactText">Resume</p>
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              style={contactA}
+              href="https://www.linkedin.com/in/dustin-irving-a92009194/"
+            >
+              <IconContext.Provider value={{ size: "2.75em" }}>
+                <div className="socialMediaIcon">
+                  <FaLinkedin />{" "}
+                </div>
+              </IconContext.Provider>
+              <p className="contactText">LinkedIn</p>
+            </a>
+          </div>
 
-        <a
-          style={contactA}
-          href="https://www.linkedin.com/in/dustin-irving-a92009194/"
-        >
-          <IconContext.Provider value={{ color: "blue", size: "2.75em" }}>
-            <div style={socialMediaIcon}>
-              <FaLinkedin />{" "}
-            </div>
-          </IconContext.Provider>
-        </a>
+          <div className="icon">
+            <a style={contactA} href="tel:613-292-4533">
+              <IconContext.Provider value={{ size: "2.75em" }}>
+                <div className="socialMediaIcon">
+                  <FaPhone />
+                </div>
+              </IconContext.Provider>
+              <p className="contactText">(613)-292-4533</p>
+            </a>
+          </div>
+        </div>
+        <div style={footer}>&copy; Copyright 2020</div>
       </div>
     </div>
   );
@@ -81,26 +89,26 @@ const Contact = (props) => {
 // Styling
 
 const contactComponent = {
-  height: "40%",
-  paddingTop: "22%",
-  marginTop: "0",
+  paddingTop: "2rem",
+};
+
+const contactBox = {
+  width: "100%",
+  marginLeft: "auto",
+  marginRight: "auto",
 };
 
 const contactHeader = {
   fontSize: "36px",
-  width: "33%",
+  width: "100%",
   marginLeft: "auto",
   marginRight: "auto",
   textAlign: "center",
   marginBottom: "1rem",
 };
 
-const unorderedList = {
-  listStyle: "none",
-  fontSize: "20px",
-  width: "33%",
-  marginLeft: "auto",
-  marginRight: "auto",
+const icons = {
+  display: "flex",
 };
 
 const contactA = {
@@ -108,22 +116,12 @@ const contactA = {
   color: "black",
 };
 
-const socialMedia = {
-  width: "18%",
-  marginLeft: "auto",
-  marginRight: "auto",
+const footer = {
+  textAlign: "center",
+  paddingTop: "2rem",
+  paddingBottom: "2rem",
+  backgroundColor: "black",
+  color: "white",
+  marginBottom: "0",
 };
-
-const socialMediaIcon = {
-  display: "inline",
-  paddingLeft: "1.5rem",
-};
-
-const inlineImg = {
-  display: "inline",
-  margin: "0 0.125em",
-  padding: "0",
-  verticalAlign: "baseline",
-};
-
 export default Contact;

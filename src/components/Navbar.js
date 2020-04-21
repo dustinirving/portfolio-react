@@ -1,5 +1,6 @@
 import React from "react";
 import { NavHashLink as Link } from "react-router-hash-link";
+import "../styling/App.css";
 
 const Navbar = (props) => {
   function changeFontColor(event) {
@@ -17,6 +18,7 @@ const Navbar = (props) => {
             onMouseOver={changeFontColor}
             onMouseLeave={setDefaultColor}
             style={navbarNameA}
+            className="navbarNameA"
             to="/react-portfolio/#navbar"
           >
             Dustin Irving
@@ -24,7 +26,7 @@ const Navbar = (props) => {
         </div>
         <div style={spacer}></div>
         <div>
-          <ul style={navbarItemsUL}>
+          <ul className="navbarItemsUL" style={navbarItemsUL}>
             <li style={navbarItemsLI}>
               <Link
                 onMouseOver={changeFontColor}
@@ -85,34 +87,33 @@ const navbarWrapper = {
   top: "0",
   left: "0",
   width: "100%",
-  height: "8vh",
-  lineHeight: "8vh",
+  height: "5rem",
+  lineHeight: "5rem",
   backgroundColor: "black",
+  paddingLeft: "2rem",
 };
 
 const navbarComponent = {
   display: "flex",
+  height: "10vh",
 };
 
 const spacer = {
-  flex: "0.97",
+  flex: 1,
 };
 
-const navbarName = {
-  paddingLeft: "3%",
-};
+const navbarName = {};
 
 const navbarNameA = {
   textDecoration: "none",
   color: "white",
-  fontSize: "2rem",
 };
 
 const navbarItemsUL = {
   listStyle: "none",
   margin: "0",
-  padding: "0",
   display: "flex",
+  paddingRight: "3rem",
 };
 
 const navbarItemsLI = {
@@ -122,7 +123,6 @@ const navbarItemsLI = {
 const navbarItemsA = {
   textDecoration: "none",
   color: "white",
-  fontSize: "1.5rem",
 };
 
 export default Navbar;
