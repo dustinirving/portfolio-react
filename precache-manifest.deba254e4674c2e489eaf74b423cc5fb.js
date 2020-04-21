@@ -1,47 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "698b8935dc461f17516f53f05137a3b1",
+    "revision": "9494486a49001bbeb3b82bbc28729034",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "010c2e4a0050f9e2180f",
-    "url": "/react-portfolio/static/css/main.db482fd4.chunk.css"
+    "revision": "9cfc89f09d7a65ec75ae",
+    "url": "/react-portfolio/static/css/main.2c778865.chunk.css"
   },
   {
-    "revision": "6b381518877e5d2c5e24",
-    "url": "/react-portfolio/static/js/2.5e616914.chunk.js"
+    "revision": "f4ef03c14579bb769b27",
+    "url": "/react-portfolio/static/js/2.80959054.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-portfolio/static/js/2.5e616914.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.80959054.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "010c2e4a0050f9e2180f",
-    "url": "/react-portfolio/static/js/main.e6969640.chunk.js"
+    "revision": "9cfc89f09d7a65ec75ae",
+    "url": "/react-portfolio/static/js/main.5c340a78.chunk.js"
   },
   {
     "revision": "c01136dc6b7e393f307b",
     "url": "/react-portfolio/static/js/runtime-main.d92c7dfa.js"
   },
   {
-    "revision": "ecd1183e46922374a6aeab6cce94bc9a",
-    "url": "/react-portfolio/static/media/capitals.ecd1183e.png"
+    "revision": "e4f487dcb6a4412c9bda7a62f8fa593c",
+    "url": "/react-portfolio/static/media/capitals.e4f487dc.png"
   },
   {
     "revision": "72d648d64bb0c2aa6f814262a3c65751",
     "url": "/react-portfolio/static/media/computer-bg.72d648d6.jpg"
   },
   {
-    "revision": "58a37e01e8cd11d61ee30d23a87fa545",
-    "url": "/react-portfolio/static/media/covid.58a37e01.jpg"
-  },
-  {
     "revision": "97fd3b6aaf44a0dbe7b4054cf9f3a9b7",
     "url": "/react-portfolio/static/media/covid.97fd3b6a.gif"
   },
   {
-    "revision": "12b381aee934f2619a44ba922353306a",
-    "url": "/react-portfolio/static/media/dayplanner.12b381ae.jpg"
+    "revision": "d0ac4c03997df0fb88adbe501ab631d0",
+    "url": "/react-portfolio/static/media/covid.d0ac4c03.jpg"
+  },
+  {
+    "revision": "208772f53a46861751e44567931e5ffc",
+    "url": "/react-portfolio/static/media/dayplanner.208772f5.jpg"
   },
   {
     "revision": "25b3cafe0b3c484a123335ef49e8069a",
@@ -58,9 +58,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6390a0368f1e5b831534394d1cfc072a",
     "url": "/react-portfolio/static/media/weather.6390a036.gif"
-  },
-  {
-    "revision": "e748fed6df3ecebc5dcd63bc4f155faa",
-    "url": "/react-portfolio/static/media/weather.e748fed6.png"
   }
 ]);
