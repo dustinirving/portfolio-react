@@ -42,10 +42,7 @@ const Contact = props => {
             </a>
           </div>
           <div className='icon'>
-            <a
-              style={contactA}
-              href='https://dustinirving.github.io/portfolio/docs/resume.pdf'
-            >
+            <a style={contactA} href='./docs/resume.pdf'>
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>
                   <FaFilePdf />
