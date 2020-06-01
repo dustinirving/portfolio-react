@@ -44,7 +44,7 @@ const Contact = props => {
           <div className='icon'>
             <a
               style={contactA}
-              href='https://dustinirving.github.io/mypage/docs/resume.pdf'
+              href='https://dustinirving.github.io/portfolio/docs/resume.pdf'
             >
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>

@@ -26,7 +26,7 @@ const Samaritan = props => {
       />
 
       <p className='projectText'>
-        Good samaritan was developed in a period of 36 hours, as apart of the
+        Good Samaritan was developed in a period of 36 hours, as apart of the
         2020 Ryerson University Hackathon. This application was designed to
         minimize opioid misuse related harm. Functionalities include: retrieving
         geolocation, sending information associated with overdose symptoms, as
