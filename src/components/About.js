@@ -11,12 +11,12 @@ const About = props => {
         at the University of Ottawa. I am currently working towards a
         certificate of Full Stack Web Development at Carleton University. I am
         knowledgeable in all areas of web development with expertise in HTML5,
-        CSS3, JavaScript (ES6+), React.js, Node.js, Express, MySQL, and MongoDB.
-        I am a dedicated individual with exceptional problem solving skills, who
-        is passionate about learning, creating, and improving. In my spare time,
-        I enjoy listening to podcasts, working on various applications and
-        spending time outdoors. Please feel free to contact me with the
-        information provided below. Thanks for visiting.
+        CSS3, Bootstrap, JavaScript (ES6+), React.js, Node.js, Express, MySQL,
+        and MongoDB. I am a dedicated individual with exceptional problem
+        solving skills, who is passionate about learning, creating, and
+        improving. In my spare time, I enjoy listening to podcasts, working on
+        various applications and spending time outdoors. Please feel free to
+        contact me with the information provided below. Thanks for visiting.
       </p>
     </div>
   )
