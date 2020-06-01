@@ -1,50 +1,50 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 // Components
-import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Covid from "./components/Projects/Covid";
-import Planner from "./components/Projects/Planner";
-import Quiz from "./components/Projects/Quiz";
-import Weather from "./components/Projects/Weather";
+import Navbar from './components/Navbar'
+import Intro from './components/Intro'
+import Projects from './components/Projects'
+import About from './components/About'
+import Contact from './components/Contact'
+import Covid from './components/Projects/Covid'
+import Travelbook from './components/Projects/Travelbook'
+import Samaritan from './components/Projects/Good-samaritan'
+import Employee from './components/Projects/Employee'
 
 // Styling
-import "./styling/App.css";
+import './styling/App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <Router>
-        <div className="body">
-          <div className="navbar" id="navbar">
+        <div className='body'>
+          <div className='navbar' id='navbar'>
             <Navbar />
           </div>
           <Route
-            path="/react-portfolio"
+            path='/'
             exact
-            render={(props) => (
+            render={props => (
               <React.Fragment>
-                <div className="background">
-                  <div className="wrapper">
-                    <div className="intro">
+                <div className='background'>
+                  <div className='wrapper'>
+                    <div className='intro'>
                       <Intro />
                     </div>
                   </div>
-                  <div className="projects" id="projects">
+                  <div className='projects' id='projects'>
                     <Projects />
                   </div>
 
-                  <div className="about" id="about">
+                  <div className='about' id='about'>
                     <About />
                   </div>
                 </div>
 
-                <div className="contactWrapper">
-                  <div className="contact" id="contact">
+                <div className='contactWrapper'>
+                  <div className='contact' id='contact'>
                     <Contact />
                   </div>
                 </div>
@@ -52,21 +52,21 @@ class App extends Component {
             )}
           ></Route>
         </div>
-        <div className="projectWrapper">
-          <Route path="/react-portfolio/covid" component={Covid} exact />
+        <div className='projectWrapper'>
+          <Route path='/covid' component={Covid} exact />
         </div>
-        <div className="projectWrapper">
-          <Route path="/react-portfolio/planner" component={Planner} exact />
+        <div className='projectWrapper'>
+          <Route path='/travelbook' component={Travelbook} exact />
         </div>
-        <div className="projectWrapper">
-          <Route path="/react-portfolio/quiz" component={Quiz} exact />
+        <div className='projectWrapper'>
+          <Route path='/good-samaritan' component={Samaritan} exact />
         </div>
-        <div className="projectWrapper">
-          <Route path="/react-portfolio/weather" component={Weather} exact />
+        <div className='projectWrapper'>
+          <Route path='/employee' component={Employee} exact />
         </div>
       </Router>
-    );
+    )
   }
 }
 
-export default App;
+export default App

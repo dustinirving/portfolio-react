@@ -1,13 +1,13 @@
-import React from "react";
-import { NavHashLink as Link } from "react-router-hash-link";
-import "../styling/App.css";
+import React from 'react'
+import { NavHashLink as Link } from 'react-router-hash-link'
+import '../styling/App.css'
 
-const Navbar = (props) => {
-  function changeFontColor(event) {
-    event.target.style.color = "gray";
+const Navbar = props => {
+  function changeFontColor (event) {
+    event.target.style.color = '#D3D3D3'
   }
-  function setDefaultColor(event) {
-    event.target.style.color = "white";
+  function setDefaultColor (event) {
+    event.target.style.color = 'white'
   }
 
   return (
@@ -18,22 +18,22 @@ const Navbar = (props) => {
             onMouseOver={changeFontColor}
             onMouseLeave={setDefaultColor}
             style={navbarNameA}
-            className="navbarNameA"
-            to="/react-portfolio/#navbar"
+            className='navbarNameA'
+            to='/#navbar'
           >
             Dustin Irving
           </Link>
         </div>
         <div style={spacer}></div>
         <div>
-          <ul className="navbarItemsUL" style={navbarItemsUL}>
+          <ul className='navbarItemsUL' style={navbarItemsUL}>
             <li style={navbarItemsLI}>
               <Link
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to="/react-portfolio/#about"
-                activeClassName="active"
+                to='/#about'
+                activeClassName='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -47,8 +47,8 @@ const Navbar = (props) => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to="/react-portfolio/#projects"
-                activeClassName="active"
+                to='/#projects'
+                activeClassName='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -62,8 +62,8 @@ const Navbar = (props) => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to="/react-portfolio/#contact"
-                activeClassName="active"
+                to='/#contact'
+                activeClassName='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -76,53 +76,53 @@ const Navbar = (props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 // Styling
 
 const navbarWrapper = {
-  zIndex: "+1",
-  position: "fixed",
-  top: "0",
-  left: "0",
-  width: "100%",
-  height: "5rem",
-  lineHeight: "5rem",
-  backgroundColor: "black",
-  paddingLeft: "2rem",
-};
+  zIndex: '+1',
+  position: 'fixed',
+  top: '0',
+  left: '0',
+  width: '100%',
+  height: '5rem',
+  lineHeight: '5rem',
+  backgroundColor: 'black',
+  paddingLeft: '2rem'
+}
 
 const navbarComponent = {
-  display: "flex",
-  height: "10vh",
-};
+  display: 'flex',
+  height: '10vh'
+}
 
 const spacer = {
-  flex: 1,
-};
+  flex: 1
+}
 
-const navbarName = {};
+const navbarName = {}
 
 const navbarNameA = {
-  textDecoration: "none",
-  color: "white",
-};
+  textDecoration: 'none',
+  color: 'white'
+}
 
 const navbarItemsUL = {
-  listStyle: "none",
-  margin: "0",
-  display: "flex",
-  paddingRight: "3rem",
-};
+  listStyle: 'none',
+  margin: '0',
+  display: 'flex',
+  paddingRight: '3rem'
+}
 
 const navbarItemsLI = {
-  padding: "0 0.5rem",
-};
+  padding: '0 0.5rem'
+}
 
 const navbarItemsA = {
-  textDecoration: "none",
-  color: "white",
-};
+  textDecoration: 'none',
+  color: 'white'
+}
 
-export default Navbar;
+export default Navbar
