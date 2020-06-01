@@ -8,6 +8,7 @@ import {
 } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 import '../styling/App.css'
+import resume from '../docs/resume.pdf'
 
 const Contact = props => {
   return (
@@ -28,11 +29,7 @@ const Contact = props => {
             </a>
           </div>
           <div className='icon'>
-            <a
-              style={contactA}
-              href='https://github.com/dustinirving'
-              title='Github'
-            >
+            <a style={contactA} href='https://github.com/dustinirving'>
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>
                   <FaGithub />
@@ -44,9 +41,9 @@ const Contact = props => {
           <div className='icon'>
             <a
               style={contactA}
+              href={resume}
               target='_blank'
               rel='noopener noreferrer'
-              href='https://dustinirving.github.io/portfolio/docs/resume.pdf'
             >
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>

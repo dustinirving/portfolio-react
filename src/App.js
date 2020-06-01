@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <Router>
         <div className='body'>
-          <div className='navbar' id='navbar'>
+          <div className='navbar' id='navbar' path='/portfolio' exact>
             <Navbar />
           </div>
           <Route
