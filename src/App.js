@@ -24,7 +24,7 @@ class App extends Component {
             <Navbar />
           </div>
           <Route
-            path='/'
+            path='/portfolio'
             exact
             render={props => (
               <React.Fragment>
@@ -53,16 +53,16 @@ class App extends Component {
           ></Route>
         </div>
         <div className='projectWrapper'>
-          <Route path='/covid' component={Covid} exact />
+          <Route path='/portfolio/covid' component={Covid} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/travelbook' component={Travelbook} exact />
+          <Route path='/portfolio/travelbook' component={Travelbook} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/good-samaritan' component={Samaritan} exact />
+          <Route path='/portfolio/good-samaritan' component={Samaritan} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/employee' component={Employee} exact />
+          <Route path='/portfolio/employee' component={Employee} exact />
         </div>
       </Router>
     )

@@ -19,7 +19,7 @@ const Navbar = props => {
             onMouseLeave={setDefaultColor}
             style={navbarNameA}
             className='navbarNameA'
-            to='/#navbar'
+            to='/portfolio/#navbar'
           >
             Dustin Irving
           </Link>
@@ -32,7 +32,7 @@ const Navbar = props => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to='/#about'
+                to='/portfolio/#about'
                 activeClassName='active'
                 spy={true}
                 smooth={true}
@@ -47,7 +47,7 @@ const Navbar = props => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to='/#projects'
+                to='/portfolio/#projects'
                 activeClassName='active'
                 spy={true}
                 smooth={true}
@@ -62,7 +62,7 @@ const Navbar = props => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to='/#contact'
+                to='/portfolio/#contact'
                 activeClassName='active'
                 spy={true}
                 smooth={true}
