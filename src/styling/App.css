@@ -189,6 +189,7 @@
     padding-bottom: 1rem;
   }
 }
+
 @media (max-width: 499px) {
   .introImage {
     height: 160px;
@@ -200,13 +201,6 @@
   .introComponent {
     padding-top: 15vh;
   }
-  .navbarNameA {
-    font-size: 20px;
-  }
-  .navbarItemsUL {
-    font-size: 16px;
-  }
-
   .about {
     width: 80%;
     margin-left: auto;
@@ -221,5 +215,23 @@
   .icons {
     margin-top: 0;
     padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 499px) and (min-width: 410px) {
+  .navbarNameA {
+    font-size: 20px;
+  }
+  .navbarItemsUL {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 409px) {
+  .navbarNameA {
+    font-size: 14px;
+  }
+  .navbarItemsUL {
+    font-size: 10px;
   }
 }
