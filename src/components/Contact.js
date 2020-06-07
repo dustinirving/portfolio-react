@@ -19,6 +19,8 @@ const Contact = props => {
             <a
               style={contactA}
               href='mailto:dustin.irving@gmail.com? subject=subject text'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>
@@ -29,7 +31,12 @@ const Contact = props => {
             </a>
           </div>
           <div className='icon'>
-            <a style={contactA} href='https://github.com/dustinirving'>
+            <a
+              style={contactA}
+              href='https://github.com/dustinirving'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>
                   <FaGithub />
@@ -57,6 +64,8 @@ const Contact = props => {
             <a
               style={contactA}
               href='https://www.linkedin.com/in/dustin-irving-a92009194/'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <IconContext.Provider value={{ size: '2.75em' }}>
                 <div className='socialMediaIcon'>
