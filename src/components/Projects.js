@@ -8,12 +8,14 @@ import covid from '../images/covid.jpg'
 import travelbook from '../images/travelbook.png'
 import goodsamaritan from '../images/samaritan.jpg'
 import employee from '../images/employee.jpg'
+import weather from '../images/weather.png'
+import transactions from '../images/transactions.jpg'
 
 const Projects = props => {
   return (
     <div className='projects-wrapper'>
       <div className='projects-title'>Recent Projects</div>
-      <div className='project-card project-1'>
+      <div className='project-card'>
         <Link to='/portfolio/travelbook'>
           <Project
             title='Travelbook'
@@ -22,7 +24,7 @@ const Projects = props => {
           />
         </Link>
       </div>
-      <div className='project-card project-2'>
+      <div className='project-card'>
         <Link to='/portfolio/covid'>
           <Project
             title='COVID-19 Tracker'
@@ -32,7 +34,7 @@ const Projects = props => {
         </Link>
       </div>
 
-      <div className='project-card project-3'>
+      <div className='project-card'>
         <Link to='/portfolio/employee'>
           <Project
             title='Employee Tracking CLI'
@@ -42,12 +44,31 @@ const Projects = props => {
         </Link>
       </div>
 
-      <div className='project-card project-4'>
+      <div className='project-card'>
         <Link to='/portfolio/good-samaritan'>
           <Project
             title='Good Samaritan'
             imageURL={goodsamaritan}
             alternate='Good Samaritan'
+          />
+        </Link>
+      </div>
+      <div className='project-card'>
+        <Link to='/portfolio/weather'>
+          <Project
+            title='Weather Forecast'
+            imageURL={weather}
+            alternate='Weather'
+          />
+        </Link>
+      </div>
+
+      <div className='project-card'>
+        <Link to='/portfolio/transactions'>
+          <Project
+            title='Offline Transactions'
+            imageURL={transactions}
+            alternate='Transactions'
           />
         </Link>
       </div>
