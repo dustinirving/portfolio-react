@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.687d6490.chunk.css",
-    "main.js": "/portfolio/static/js/main.b54cacf1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b54cacf1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5b6462f5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5b6462f5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.4da689ad.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.4da689ad.js.map",
-    "static/js/2.243726b8.chunk.js": "/portfolio/static/js/2.243726b8.chunk.js",
-    "static/js/2.243726b8.chunk.js.map": "/portfolio/static/js/2.243726b8.chunk.js.map",
+    "static/js/2.efb79bd2.chunk.js": "/portfolio/static/js/2.efb79bd2.chunk.js",
+    "static/js/2.efb79bd2.chunk.js.map": "/portfolio/static/js/2.efb79bd2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.cef9337ac060acd2f0f8e476adad022d.js": "/portfolio/precache-manifest.cef9337ac060acd2f0f8e476adad022d.js",
+    "precache-manifest.53ab51b581d1e944750d5deb6883796a.js": "/portfolio/precache-manifest.53ab51b581d1e944750d5deb6883796a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.687d6490.chunk.css.map": "/portfolio/static/css/main.687d6490.chunk.css.map",
-    "static/js/2.243726b8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.243726b8.chunk.js.LICENSE.txt",
+    "static/js/2.efb79bd2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.efb79bd2.chunk.js.LICENSE.txt",
+    "static/media/budget.gif": "/portfolio/static/media/budget.9d506b44.gif",
     "static/media/App.css": "/portfolio/static/media/computer-bg.72d648d6.jpg",
     "static/media/covid.gif": "/portfolio/static/media/covid.97fd3b6a.gif",
     "static/media/covid.jpg": "/portfolio/static/media/covid.d0ac4c03.jpg",
@@ -21,13 +22,15 @@
     "static/media/resume.pdf": "/portfolio/static/media/resume.e3ee4fb7.pdf",
     "static/media/samaritan.gif": "/portfolio/static/media/samaritan.05b3029d.gif",
     "static/media/samaritan.jpg": "/portfolio/static/media/samaritan.6c2a9d9b.jpg",
+    "static/media/transactions.jpg": "/portfolio/static/media/transactions.390aa1ad.jpg",
     "static/media/travelbook.png": "/portfolio/static/media/travelbook.26033869.png",
-    "static/media/travelbook.gif": "/portfolio/static/media/travelbook.7abf72ce.gif"
+    "static/media/travelbook.gif": "/portfolio/static/media/travelbook.7abf72ce.gif",
+    "static/media/weather.gif": "/portfolio/static/media/weather.6390a036.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.4da689ad.js",
-    "static/js/2.243726b8.chunk.js",
+    "static/js/2.efb79bd2.chunk.js",
     "static/css/main.687d6490.chunk.css",
-    "static/js/main.b54cacf1.chunk.js"
+    "static/js/main.5b6462f5.chunk.js"
   ]
 }
