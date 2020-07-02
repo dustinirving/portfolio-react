@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../styling/ProjectDescription.css'
+import Footer from '../components/Footer'
 
 const Weather = props => {
   return (
@@ -35,6 +36,7 @@ const Weather = props => {
           JavaScript to fetch the data and create functionality.
         </p>
       </div>
+      <Footer />
     </>
   )
 }

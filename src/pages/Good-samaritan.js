@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../styling/ProjectDescription.css'
+import Footer from '../components/Footer'
 
 const Samaritan = props => {
   return (
@@ -38,6 +39,7 @@ const Samaritan = props => {
           Sequelize and MySQL.
         </p>
       </div>
+      <Footer />
     </>
   )
 }

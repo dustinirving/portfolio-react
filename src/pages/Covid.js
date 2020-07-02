@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../styling/ProjectDescription.css'
+import Footer from '../components/Footer'
 
 const Covid = props => {
   return (
@@ -32,6 +33,7 @@ const Covid = props => {
           JavaScript, Chart.js, an open source COVID-19 API, and the NYT API.
         </p>
       </div>
+      <Footer />
     </>
   )
 }

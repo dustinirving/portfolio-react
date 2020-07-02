@@ -9,6 +9,7 @@ import {
 import { IconContext } from 'react-icons'
 import '../styling/App.css'
 import resume from '../docs/resume.pdf'
+import Footer from './Footer'
 
 const Contact = props => {
   return (
@@ -87,7 +88,7 @@ const Contact = props => {
             </a>
           </div>
         </div>
-        <div style={footer}>&copy; Copyright 2020</div>
+        <Footer />
       </div>
     </div>
   )
@@ -112,14 +113,5 @@ const icons = {
 const contactA = {
   textDecoration: 'none',
   color: 'black'
-}
-
-const footer = {
-  textAlign: 'center',
-  paddingTop: '2rem',
-  paddingBottom: '2rem',
-  backgroundColor: 'black',
-  color: 'white',
-  marginBottom: '0'
 }
 export default Contact

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../styling/ProjectDescription.css'
+import Footer from '../components/Footer'
 
 const Employee = props => {
   return (
@@ -32,6 +33,7 @@ const Employee = props => {
           done with Node.js and MySQL.
         </p>
       </div>
+      <Footer />
     </>
   )
 }
