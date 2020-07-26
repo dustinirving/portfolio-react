@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../styling/ProjectDescription.css'
-import Footer from '../components/Footer'
 
 const Transactions = props => {
   return (
@@ -37,7 +36,6 @@ const Transactions = props => {
           computer.
         </p>
       </div>
-      <Footer />
     </>
   )
 }

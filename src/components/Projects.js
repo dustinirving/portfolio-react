@@ -16,7 +16,7 @@ const Projects = props => {
     <div className='projects-wrapper'>
       <div className='projects-title'>Recent Projects</div>
       <div className='project-card'>
-        <Link to='/portfolio/travelbook'>
+        <Link to='/travelbook'>
           <Project
             title='Travelbook'
             imageURL={travelbook}
@@ -25,7 +25,7 @@ const Projects = props => {
         </Link>
       </div>
       <div className='project-card'>
-        <Link to='/portfolio/covid'>
+        <Link to='/covid'>
           <Project
             title='COVID-19 Tracker'
             imageURL={covid}
@@ -35,7 +35,7 @@ const Projects = props => {
       </div>
 
       <div className='project-card'>
-        <Link to='/portfolio/employee'>
+        <Link to='/employee'>
           <Project
             title='Employee Tracking CLI'
             imageURL={employee}
@@ -45,7 +45,7 @@ const Projects = props => {
       </div>
 
       <div className='project-card'>
-        <Link to='/portfolio/good-samaritan'>
+        <Link to='/good-samaritan'>
           <Project
             title='Good Samaritan'
             imageURL={goodsamaritan}
@@ -54,7 +54,7 @@ const Projects = props => {
         </Link>
       </div>
       <div className='project-card'>
-        <Link to='/portfolio/weather'>
+        <Link to='/weather'>
           <Project
             title='Weather Forecast'
             imageURL={weather}
@@ -64,7 +64,7 @@ const Projects = props => {
       </div>
 
       <div className='project-card'>
-        <Link to='/portfolio/transactions'>
+        <Link to='/transactions'>
           <Project
             title='Offline Transactions'
             imageURL={transactions}

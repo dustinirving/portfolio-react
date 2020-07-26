@@ -19,7 +19,7 @@ const Header = props => {
             onMouseLeave={setDefaultColor}
             style={navbarNameA}
             className='navbarNameA'
-            to='/portfolio/#navbar'
+            to='/#navbar'
           >
             Dustin Irving
           </Link>
@@ -32,7 +32,7 @@ const Header = props => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to='/portfolio/#about'
+                to='/#about'
                 activeClassName='active'
                 spy={true}
                 smooth={true}
@@ -47,7 +47,7 @@ const Header = props => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to='/portfolio/#projects'
+                to='/#projects'
                 activeClassName='active'
                 spy={true}
                 smooth={true}
@@ -62,7 +62,7 @@ const Header = props => {
                 onMouseOver={changeFontColor}
                 onMouseLeave={setDefaultColor}
                 style={navbarItemsA}
-                to='/portfolio/#contact'
+                to='/#contact'
                 activeClassName='active'
                 spy={true}
                 smooth={true}
