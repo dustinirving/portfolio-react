@@ -17,28 +17,24 @@ class App extends Component {
   render () {
     return (
       <Router>
-        <Route path='/portfolio' exact component={Home} />
+        <Route path='/' exact component={Home} />
         <div className='projectWrapper'>
-          <Route path='/portfolio/covid' component={Covid} exact />
+          <Route path='/covid' component={Covid} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/portfolio/travelbook' component={Travelbook} exact />
+          <Route path='/travelbook' component={Travelbook} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/portfolio/good-samaritan' component={Samaritan} exact />
+          <Route path='/good-samaritan' component={Samaritan} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/portfolio/employee' component={Employee} exact />
+          <Route path='/employee' component={Employee} exact />
         </div>
         <div className='projectWrapper'>
-          <Route path='/portfolio/weather' component={Weather} exact />
+          <Route path='/weather' component={Weather} exact />
         </div>
         <div className='projectWrapper'>
-          <Route
-            path='/portfolio/transactions'
-            component={Transactions}
-            exact
-          />
+          <Route path='/transactions' component={Transactions} exact />
         </div>
       </Router>
     )
